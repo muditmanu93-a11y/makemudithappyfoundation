@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Make Mudit Happy Foundation</title>
+  <meta name="description" content="This is a fictional demo website created for design and presentation purposes only." />
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f7f9fc;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg, #4f46e5, #6366f1);
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0 0 10px;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.1rem;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    nav {
+      background: #ffffff;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+    }
+    nav a {
+      text-decoration: none;
+      color: #4f46e5;
+      font-weight: 600;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+    }
+    .card {
+      background: #fff;
+      border-radius: 14px;
+      padding: 25px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #4f46e5;
+    }
+    .cta {
+      background: #4f46e5;
+      color: #fff;
+      text-align: center;
+      padding: 50px 20px;
+      border-radius: 20px;
+      margin-top: 40px;
+    }
+    .cta button {
+      background: #fff;
+      color: #4f46e5;
+      border: none;
+      padding: 14px 28px;
+      font-size: 1rem;
+      border-radius: 30px;
+      cursor: pointer;
+      margin-top: 20px;
+      font-weight: bold;
+    }
+    footer {
+      background: #111827;
+      color: #d1d5db;
+      text-align: center;
+      padding: 25px 15px;
+      font-size: 0.9rem;
+    }
+    footer strong {
+      color: #fff;
+    }
+    .disclaimer {
+      background: #fff7ed;
+      border: 1px solid #fed7aa;
+      padding: 15px;
+      border-radius: 10px;
+      color: #9a3412;
+      max-width: 900px;
+      margin: 30px auto 0;
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Make Mudit Happy Foundation</h1>
+    <p>Spreading smiles, supporting dreams, and making happiness a shared mission — one initiative at a time.</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#mission">Our Mission</a></li>
+      <li><a href="#programs">Programs</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="about">
+    <h2>About the Foundation</h2>
+    <p>
+      Make Mudit Happy Foundation is a <strong>fictional, non‑profit initiative</strong> created for demonstration and design purposes.
+      The concept focuses on emotional well‑being, community happiness, and small acts of kindness that create a big impact.
+    </p>
+  </section>
+
+  <section id="mission">
+    <h2>Our Mission</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Emotional Well‑being</h3>
+        <p>Promoting mental peace, positivity, and happiness through awareness and community activities.</p>
+      </div>
+      <div class="card">
+        <h3>Community Support</h3>
+        <p>Encouraging people to support one another through time, kindness, and shared experiences.</p>
+      </div>
+      <div class="card">
+        <h3>Joyful Initiatives</h3>
+        <p>Small creative programs designed to bring smiles, motivation, and hope.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="programs">
+    <h2>Our Programs</h2>
+    <ul>
+      <li>Happiness Workshops (fictional)</li>
+      <li>Smile Drives (fictional)</li>
+      <li>Motivation & Positivity Campaigns (fictional)</li>
+    </ul>
+
+    <div class="cta">
+      <h2>Join the Happiness Movement</h2>
+      <p>Be part of something positive. Because happiness grows when shared.</p>
+      <button>Get Involved</button>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: hello@makemudithappyfoundation.com</p>
+    <p>Phone: +91 90000 00000</p>
+    <p>Location: India</p>
+
+    <div class="disclaimer">
+      <strong>Disclaimer:</strong> This website is entirely fictional and created only for demo, learning, or presentation purposes.
+      It does not represent a real registered organization and should not be used for fundraising or legal purposes.
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 <strong>Make Mudit Happy Foundation</strong>. All rights reserved.</p>
+    <p>This is a fictional demo website.</p>
+  </footer>
+
+</body>
+</html>
